@@ -1,8 +1,8 @@
 package org.acme;
 
-import io.quarkus.test.junit.NativeImageTest;
+import io.quarkus.test.junit.QuarkusIntegrationTest;
 
-@NativeImageTest
+@QuarkusIntegrationTest
 public class NativeBlueResourceIT extends BlueResourceTest {
 
     // Execute the same tests but in native mode.
