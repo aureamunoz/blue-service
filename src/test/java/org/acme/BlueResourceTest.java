@@ -11,11 +11,7 @@ public class BlueResourceTest {
 
     @Test
     public void testHelloEndpoint() {
-        given()
-          .when().get("")
-          .then()
-             .statusCode(200)
-             .body(is("Hello from Blue!"));
+        given().when().get("").then().statusCode(200).body(is("Hello from Blue!"));
     }
 
 }
