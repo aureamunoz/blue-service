@@ -26,7 +26,6 @@ jobs:
     strategy:
       matrix:
         java: [
-          { 'version': '11', 'opts': '' },
           { 'version': '17', 'opts': '' },
           { 'version': '20', 'opts': '' },
           { 'version': '21', 'opts': '' }
@@ -52,7 +51,6 @@ jobs:
     strategy:
       matrix:
         java: [
-          { 'version': '11', 'opts': '' },
           { 'version': '17', 'opts': '' },
           { 'version': '20', 'opts': '' },
           { 'version': '21', 'opts': '' }
